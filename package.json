@@ -1,0 +1,23 @@
+{
+  "name": "vue-scoped-context-workspace",
+  "private": true,
+  "scripts": {
+    "build": "pnpm --filter vue-scoped-context build && pnpm --filter vue-scoped-context-devtools build",
+    "dev:build-lib": "pnpm --filter vue-scoped-context build && pnpm --filter vue-scoped-context-devtools build && pnpm --filter vue-scoped-context-playground dev",
+    "dev": "pnpm --filter vue-scoped-context-playground dev",
+    "test": "pnpm --filter vue-scoped-context test",
+    "test:unit": "pnpm --filter vue-scoped-context test:unit",
+    "test:integration": "pnpm --filter vue-scoped-context test:integration",
+    "test:ssr": "pnpm --filter vue-scoped-context test:ssr",
+    "test:types": "pnpm --filter vue-scoped-context test:types",
+    "typecheck": "pnpm --filter vue-scoped-context typecheck",
+    "playground:build": "pnpm --filter vue-scoped-context build && pnpm --filter vue-scoped-context-devtools build && pnpm --filter vue-scoped-context-playground build",
+    "lint": "pnpm --filter vue-scoped-context lint && pnpm --filter vue-scoped-context-devtools lint",
+    "lint:fix": "pnpm --filter vue-scoped-context lint:fix && pnpm --filter vue-scoped-context-devtools lint:fix"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint": "^9.0.0",
+    "typescript-eslint": "^8.0.0"
+  }
+}
