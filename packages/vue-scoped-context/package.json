@@ -2,6 +2,7 @@
   "name": "vue-scoped-context",
   "version": "0.1.1",
   "description": "Type-safe, subtree-scoped context utilities for Vue 3",
+  "keywords": ["vue", "vue3", "context", "scoped-context", "provide-inject", "dependency-injection", "typescript"],
   "license": "MIT",
   "type": "module",
   "sideEffects": false,

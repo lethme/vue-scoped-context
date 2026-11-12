@@ -2,6 +2,7 @@
   "name": "vue-scoped-context-devtools",
   "version": "0.1.2",
   "description": "Vue Devtools inspector for vue-scoped-context",
+  "keywords": ["vue", "vue3", "vue-devtools", "devtools", "scoped-context", "context-inspector", "debugging"],
   "license": "MIT",
   "type": "module",
   "sideEffects": false,
