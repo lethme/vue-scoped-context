@@ -1,14 +1,11 @@
 {
   "name": "vue-scoped-context",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Type-safe, subtree-scoped context utilities for Vue 3",
   "license": "MIT",
   "type": "module",
   "sideEffects": false,
-  "files": [
-    "dist",
-    "src"
-  ],
+  "files": ["dist"],
   "repository": {
     "type": "git",
     "url": "https://github.com/lethme/vue-scoped-context.git",
@@ -20,7 +17,6 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "development": "./src/index.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     }

@@ -1,11 +1,11 @@
 {
   "name": "vue-scoped-context-devtools",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Vue Devtools inspector for vue-scoped-context",
   "license": "MIT",
   "type": "module",
   "sideEffects": false,
-  "files": ["dist", "src"],
+  "files": ["dist"],
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -17,7 +17,6 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "development": "./src/index.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     }
